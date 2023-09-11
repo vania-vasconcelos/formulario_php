@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Formulário">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h2>Cadastro</h2>
+
+    <form id="formCadastro" method="POST" action="bd.php">
+        <input type="text" placeholder="Nome" name="Nome" required /><br><br>
+        <input type="email" placeholder="E-mail" name="email" required /><br><br>
+        <input type="text" placeholder="Endereço" name="endereco" required /><br><br>
+        <textarea placeholder="Mensagem" name="mensagem" minlength="10" maxlength="50" required></textarea><br><br>
+        <input type="submit" placeholder="Enviar" value="Enviar"><br><br>
+        
+    </form>
+</body>
+</html>
